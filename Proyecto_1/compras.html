@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PET´S co</title>
+    <link rel="stylesheet" type="text/css" href="./css/CSS.css" media="Screen">
+    <link rel="shortcut icon" href="images/favicon.ico" type="images/x-icon">
+</head>
+
+<body>
+
+    <img src="images/logo1.png" alt="Descripción de la imagen" width="463" height="102.5" >
+    <hr color="4d8903" size="15%" width="1400" >
+   
+
+    <nav class="header">
+        <ul class="nav">
+            <li><a href="proyecto_tienda.html"><b>Inicio</b></a></li>
+            <li><a href="mascotas.html"><b>Mascotas</b></a></li>
+            <li><a href=""><b>Preguntas</b></a>
+                <ul>
+                    <li><a href="preguntas.html">Preguntas frecuentes</a></li>
+                    <li><a href="horario_tienda.html">Horario</a></li>
+                </ul>
+            <li><a href="compras.html"><b>Compra</b></a></li>
+            <li><a href="iniciar_sesion.html"><b>Sesion</b></a></li>
+        </ul>
+    </nav>
+    <br>  
+            <br>
+            <br>
+
+
+
+<fieldset class="new">
+    <form action="./php/compras.php" method="POST">
+    <p class="compras">TU MASCOTA TE ESPERA</p>
+        <p>Porfavor llena los campos para realizar tu compra:</p>
+           <p><input type="text" name ="NombreC" placeholder="Nombre Completo" required></p>
+           <p><input type="text" name = "NTC" placeholder="Numero de tarjeta de credito" required></p>
+            <p><input type="email" name = "Email" placeholder="Correo Electronico" required></p>
+            <p><input type="text" name = "CP" placeholder="Codigo Postal" required></p>
+            <p><textarea name="Ref" placeholder="Porfavor ingresa una referencia" required ></textarea><br>
+                <p>Día de expiracion de la tarjeta:</p>
+                <p><input type="text" name="Dia" placeholder="01/02/2023" required></p>
+            <p>¿Que tipo de mascota deseas?</p>
+            <p><input type="text" name ="mascota" placeholder="Perro"required></p>
+            <p>
+                <input type="checkbox" name="info" checked="checked" /> Deseo recibir información sobre novedades y ofertas 
+                 </p> 
+            <p align="Center"><input type="submit" value="Realizar compra">
+            </fieldset>
+        </form>
+        </br>
+
+<embed src="./video/m5.mp3" autostarty="true" loop="true" volumen="10" width="0" height="0">
+
+
+    <p class="pie">
+        ©  Copyright 2023
+        <br>
+        <img src="images/facebook.png" alt="Descripción de la imagen" width="20" height="20" >
+        <img src="images/instagram.png" alt="Descripción de la imagen" width="20" height="20" > 
+        PET´S co 
+         </p>
+</body>
+</html>
